@@ -1,13 +1,13 @@
 window.onload = function () {
 
-    var seconds = 00;
-    var tens = 00;
-    var appendTens = document.getElementById("tens");
-    var appendSeconds = document.getElementById("seconds");
-    var buttonStart = document.getElementById("button-start");
-    var buttonStop = documment.getElementById("button-stop");
-    var buttonReset = document.getElementById("button-reset")
-    var Interval;
+    let seconds = 00;
+    let tens = 00;
+    let appendTens = document.getElementById("tens");
+    let appendSeconds = document.getElementById("seconds");
+    const buttonStart = document.getElementById("start-button");
+    const buttonStop = document.getElementById("stop-button");
+    const buttonReset = document.getElementById("reset-button");
+    var Interval
 
     buttonStart.onclick = function () {
         clearInterval (Interval);
@@ -52,4 +52,4 @@ window.onload = function () {
     }
 
 
-}
+};
